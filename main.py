@@ -97,8 +97,8 @@ class Reviewer(Mentor):
             return 'Error'
 
     def __str__(self):
-        parameters = f'Имя: {self.name}'
-        parameters += f'\nФамилия: {self.surname}'
+        parameters = f'Имя: {self.name}\n'
+        parameters += f'Фамилия: {self.surname}\n'
         return parameters
 
 
